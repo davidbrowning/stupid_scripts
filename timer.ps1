@@ -4,12 +4,21 @@ For ($i=1; $i -lt $args[0]; $i++){
  sleep 1;
 }
 
-For ($j=0; $j -lt 4; $j++){
- For ($i=1; $i -lt 10; $i++){
-  $a = ($i * 100)
-  [console]::beep($a,100);
-  clear
- }
-echo "TIME's UP!"
-sleep 1
-}
+  [console]::beep(146.832,150);
+  [console]::beep(174.614,150);
+  [console]::beep(293.665,600);
+  sleep .5
+
+  [console]::beep(146.832,150);
+  [console]::beep(174.614,150);
+  [console]::beep(293.665,600);
+  sleep .5
+
+  [console]::beep(329.628,300);
+  [console]::beep(349.228,150);
+  [console]::beep(329.628,150);
+  [console]::beep(349.228,150);
+  [console]::beep(329.628,150);
+
+  [console]::beep(261.626,150);
+  [console]::beep(220,600);
